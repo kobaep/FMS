@@ -1,0 +1,15 @@
+# ignore case #
+build/*
+.gradle/*
+.DS_Store
+.DS_Store?
+._
+target/*
+/target
+.idea/*
+*.zip
+derby.log
+/BASE
+spring3-web.iml
+mvnw*
+spring.iml
