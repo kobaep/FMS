@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+           "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+           "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="MTMS/home" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/home.jsp" />
+	</definition>
+
+	<definition name="MTMS/createMaterialType" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/createMaterialType.jsp" />
+	</definition>
+
+	<definition name="MTMS/updateMaterialType" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/updateMaterialType.jsp" />
+	</definition>
+
+	<definition name="MTMS/updateMaterialTypeList" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/updateMaterialTypeList.jsp" />
+	</definition>
+
+	<definition name="MTMS/materialList" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/materialList.jsp" />
+	</definition>
+
+	<definition name="MTMS/createMaterial" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/createMaterial.jsp" />
+	</definition>
+
+	<definition name="MTMS/waitApproveList" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/waitApproveList.jsp" />
+	</definition>
+
+	<definition name="MTMS/materialUpdateList" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/materialUpdateList.jsp" />
+	</definition>
+
+	<definition name="MTMS/updateMaterial" extends="layout.basic">
+		<put-attribute name="body" value="/WEB-INF/views/MTMS/updateMaterial.jsp" />
+	</definition>
+</tiles-definitions>
